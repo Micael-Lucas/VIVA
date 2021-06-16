@@ -37,7 +37,6 @@ nav ul li {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-color: black;
     color:white;
     padding-top: 100px;
     padding-bottom: 200px;
@@ -172,6 +171,7 @@ nav ul li {
     margin-top: 30px;
     border-radius: 15%;
     border: 3px solid goldenrod;
+    image-rendering: optimizeSpeed;
 }
 
 footer{
@@ -301,11 +301,10 @@ footer .cnpj p {
 
 
 #umDelivery{
-    background-image: url(Images/alta-delivery_13.jpg);
+    background-image: url(Images/Burguers/UltraBaixa/alta-mineta-\ 31.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: black;
     background-size: cover;
     color:white;
     z-index: 2;
@@ -393,6 +392,9 @@ footer .cnpj p {
     font-size-adjust: auto;
 }
 
+#doisDelivery .card img{
+    image-rendering: optimizeSpeed;
+}
 
 /*MODAL*/
 #doisDelivery .modal-header{
