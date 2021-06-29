@@ -1,0 +1,243 @@
+#myFooter {
+    background-color: goldenrod;
+    color: black;
+    padding-top: 0px;
+}
+
+#myFooter .row .col-12 h1{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 30px;
+    margin-bottom: -15px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#myFooter .footer-copyright {
+    background-color: rgba(184, 142, 36, 0.836);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 20px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: black;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: start;
+}
+
+#myFooter h5 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-top: 70px;
+    font-family:'Bebas Neue', cursive;
+    text-align: start;
+}
+
+#myFooter h2 a{
+    text-align: center;
+}
+
+#myFooter h2 a img{
+    width: 60%;
+    height: 70%;
+    margin-left: 50px;
+    align-content: center;
+    text-align: center;;
+    
+}
+
+#myFooter a {
+    color: white;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+#myFooter .social-networks a {
+    font-size: 30px;
+    color: #fcf0f0;
+    padding: 10px;
+    padding-bottom: 10px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter a button {
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .row .col-12 h1{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #myFooter h2 a img{
+        width: 50%;
+        height: 50%;
+        margin-left: 0px;
+        align-content: center;
+        text-align: center;
+    }
+
+    #myFooter .footer-copyright p {
+        color: black;
+    }
+    
+    #myFooter ul a{
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+        line-height: 1.7;
+        font-size: 14px;
+        text-align: start;
+    }
+    
+    #myFooter h5 {
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+        margin-top: 60px;
+        font-family:'Bebas Neue', cursive;
+        text-align: start;
+    }
+
+    #myFooter a button{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter h2 a img{
+        width: 50%;
+        height: 50%;
+    }
+
+    #myFooter ul a{
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+        line-height: 1.7;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #myFooter ul{
+        text-align: center;
+    }
+    
+    #myFooter h5 {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        margin-top: 10px;
+        font-family:'Bebas Neue', cursive;
+        text-align: center;
+    }
+
+    #myFooter .footer-copyright p {
+        margin: 8px;
+        color: black;
+        font-size: 13px;
+    }
+
+    #myFooter .social-networks {
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 0px;
+    }
+}
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}

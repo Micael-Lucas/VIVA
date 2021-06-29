@@ -169,89 +169,9 @@ nav ul li {
     height: auto;
     width: auto;
     margin-top: 30px;
-    border-radius: 15%;
+    border-radius: 1%;
     border: 3px solid goldenrod;
     image-rendering: optimizeSpeed;
-}
-
-footer{
-    background-color: goldenrod;
-    padding-top: 20px;
-
-}
-
-footer .card{
-    background-color: transparent;
-}
-
-footer h2{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-    letter-spacing: 2px;
-    color: black;
-    text-decoration: underline dotted black;
-    text-align: center;
-    font-weight: bolder;
-    
-}
-
-footer hr{
-    border-color: black;
-    border-width: 5px;
-    border-style: dotted;
-}
-
-footer h3{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    color: black;
-    font-weight: bold;
-}
-
-footer img{
-    width: auto;
-    height: auto;
-    max-width: 400px;
-    max-height: 300px;
-    image-rendering: optimizeSpeed;
-
-}
-
-footer a{
-    text-decoration: none;
-    color: black;
-    padding-left: 10px;
-    font-size: 20px;
-}
-
-footer p{
-    font-display:unset;
-    align-content: space-between;
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 22px;
-}
-
-footer .cnpj{
-    background-color: rgba(243, 179, 18, 0.952);
-    margin-top: 20px;
-    padding: 0 0 0 0;
-    text-align: center;
-}
-
-footer .cnpj p {
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    font-size: 10px;
-    letter-spacing: 2px;
-    font-weight: normal;
-    color: black;
-    align-items: center;
-    align-content: center;
-    padding-top: 10px;
 }
 
 #umSobre{
@@ -344,6 +264,39 @@ footer .cnpj p {
     background-color: lemonchiffon;
 }
 
+#doisDelivery .divisores{
+    background-color: white;
+    color: goldenrod;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: sticky;
+    top: 96px;
+    z-index: 1;
+}
+
+#doisDelivery .divisores h3{
+    font-size: 30px;
+
+}
+
+
+#doisDelivery .card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+    max-height: 32px;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-size: 15px;
+    text-align: start;
+    font-size-adjust: auto;
+
+}
+
 #doisDelivery .card{
     border: goldenrod 2px solid;
     height: 100%;
@@ -390,11 +343,6 @@ footer .cnpj p {
     height: 5px;
 }
 
-#doisDelivery .card-text{
-    font-size: 15px;
-    text-align: start;
-    font-size-adjust: auto;
-}
 
 #doisDelivery .card img{
     image-rendering: optimizeSpeed;
@@ -459,7 +407,7 @@ footer .cnpj p {
 }
 
 #umLocalizacao{
-    background-image: url(Images/Ambiente/Externo.png);
+    background-image: url(Images/Ambiente/1624928812386\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -626,6 +574,22 @@ footer .cnpj p {
         font-weight: bolder;
         letter-spacing: 3px;
     }
+
+    #tres{
+        background-image: url(Images/Burguers/UltraBaixa/cerveja\ retrato.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: black;
+        color:white;
+        padding-top: 100px;
+        padding-bottom: 200px;
+        z-index: 2;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
     
     #tres h3{
         font-family: 'Big Shoulders Display', cursive;
@@ -646,17 +610,96 @@ footer .cnpj p {
         border: 2px solid goldenrod;
     }
 
+    #umSobre{
+        background-image: url(Images/Burguers/UltraBaixa/cerveja\ retrato.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: black;
+        background-size: cover;
+        color:white;
+        z-index: 2;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        columns: 1;
+    }
+
+    #umDelivery{
+        background-image: url(Images/Burguers/UltraBaixa/del\ retrato.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color:white;
+        z-index: 2;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        columns: 1;
+    }
+
     #doisDelivery .card-text{
     font-size: 10px;
     text-align: start;
     font-size-adjust: auto;
     }
 
+    #doisDelivery .divisores{
+        background-color: white;
+        color: goldenrod;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        position: sticky;
+        top: 73px;
+        z-index: 1;
+    }    
+
     #doisDelivery .textotil h2{
         font-size: 30px;
     }
 
+    #tresDelivery{
+        background-image: url(Images/Burguers/UltraBaixa/alta-delivery_black\ retrato.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: black;
+        background-size: cover;
+        color:white;
+        z-index: 2;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        columns: 1;
+        padding-bottom: 100px;
+        padding-top: 60px;
+    }    
+
+   .modal-header h5{
+       font-size: 5px;
+   }
+
+   
+    #umLocalizacao{
+        background-image: url(Images/Ambiente/IMG_20210617_213604\ -\ retrato.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: black;
+        background-size: cover;
+        color:white;
+        z-index: 2;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        columns: 1;
+    }
 }
+
 
 @media (max-width: 425px)
 {
@@ -667,6 +710,20 @@ footer .cnpj p {
     font-weight: bold;
     font-size: 30px;
    }
+
+   #doisDelivery .divisores{
+    background-color: white;
+    color: goldenrod;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: sticky;
+    top: 66px;
+    z-index: 1;
+}
+
 
    #doisDelivery h5{
     text-decoration: none;
@@ -687,6 +744,20 @@ footer .cnpj p {
     font-weight: bold;
     font-size: 23px;
    }
+
+   #doisDelivery .divisores{
+    background-color: white;
+    color: goldenrod;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: sticky;
+    top: 56px;
+    z-index: 1;
+}
+
 
    #doisDelivery h5{
     text-decoration: none;
